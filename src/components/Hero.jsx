@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { BsTwitterX } from 'react-icons/bs';
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from 'react-icons/fa';
 
 function Hero() {
   return (
@@ -21,6 +22,9 @@ function Hero() {
             </a>
             <a href="https://linkedin.com/in/sajeed-balluru" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
               <FaLinkedin size={24} />
+            </a>
+            <a href="https://x.com/Ballursajeed11" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+              <BsTwitterX size={24} />
             </a>
             <a href="mailto:sajeedballuru@gmail.com" className="text-white hover:text-gray-300">
               <FaEnvelope size={24} />

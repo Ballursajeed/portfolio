@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsTwitterX } from 'react-icons/bs';
 import { FaPhone, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Contact() {
@@ -18,6 +19,9 @@ function Contact() {
           </a>
           <a href="https://github.com/Ballursajeed" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-blue-600">
             <FaGithub size={20} className="mr-2" /> github.com/Ballursajeed
+          </a>
+          <a href="https://x.com/Ballursajeed11" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-blue-600">
+            <BsTwitterX size={24} /> x.com/Ballursajeed11
           </a>
         </div>
       </div>
