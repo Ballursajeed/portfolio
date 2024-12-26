@@ -30,6 +30,18 @@ function Hero() {
               <FaEnvelope size={24} />
             </a>
           </div>
+
+          {/* Resume Link */}
+          <div className="mt-6">
+            <a 
+              href="/resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-white bg-blue-700 py-2 px-4 rounded-full hover:bg-blue-500"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </section>
