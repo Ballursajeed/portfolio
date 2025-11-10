@@ -5,7 +5,7 @@ function Projects() {
   const projects = [
     {
       title:"Real-Time Collaborative Code Editor",
-      description:"Built a real-time collaborative code editor with Monaco Editor and Socket.IO. Users can join sessions, see live cursor movements with usernames, and edit simultaneously. Implemented role-based access (Editor/Viewer) and real-time synchronization of code changes",
+      description:"Built a real-time collaborative code editor with Monaco Editor and Socket.IO. Users can join sessions, see live cursor movements with usernames, and edit simultaneously.",
       demo:"https://web-editor-one.vercel.app",
       github:"https://github.com/Ballursajeed/web-editor"
     },
