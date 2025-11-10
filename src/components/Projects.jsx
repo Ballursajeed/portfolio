@@ -3,17 +3,12 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 function Projects() {
   const projects = [
+    
     {
       title: "Scalable E-commerce Platform",
       description: "TypeScript-powered MERN stack e-commerce app with user authentication, cart management, and admin dashboards. Integrated Stripe API for secure payments.",
       demo: "https://e-commerce-app-six-plum.vercel.app",
       github: "https://github.com/Ballursajeed/E-Commerce-App"
-    },
-    {
-      title: "Dynamic Blogging Platform",
-      description: "Implemented secure user authentication, CRUD operations for blogs with rich-text editing, and user interaction features. Used Redux for state management.",
-      demo: "https://blog-app-client-ks4w.onrender.com/",
-      github: "https://github.com/Ballursajeed/Blog-App"
     },
     {
       title: "Real-Time Messaging App",
