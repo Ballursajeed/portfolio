@@ -34,7 +34,7 @@ function Hero() {
           {/* Resume Link */}
           <div className="mt-6">
             <a 
-              href="/RESUME-6.pdf" 
+              href="/RESUME.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-white bg-blue-700 py-2 px-4 rounded-full hover:bg-blue-500"
