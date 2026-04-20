@@ -5,14 +5,24 @@ function About() {
     <section id="about" className="py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
+
         <p className="text-lg text-gray-700 leading-relaxed">
-          🚀 Hello! I'm a passionate full-stack developer with a focus on creating interactive and visually stunning web experiences. 
-          Specializing in the <strong>JavaScript, TypeScript</strong> and <strong>MERN (MongoDB, Express.js, React.js, Node.js)</strong> stack, 
-          I bring a holistic approach to web development. Proficient in both <strong>frontend (React.js)</strong> and <strong>backend (Node.js)</strong> , 
-          I craft robust, scalable, and secure applications that deliver seamless user experiences.
+          I’m a full-stack developer focused on building real-world, production-ready applications — not just projects.
+          My core stack is <strong>JavaScript / TypeScript</strong> with <strong>React</strong> on the frontend and <strong>Node.js</strong> on the backend.
         </p>
+
         <p className="text-lg text-gray-700 leading-relaxed mt-4">
-          Beyond the basics, my skills extend to using CSS frameworks like <strong>Bootstrap</strong> and <strong>Tailwind</strong> for responsive design. Actively contributing to the ever-evolving web landscape through MERN stack projects, I am ready to bring my full-stack expertise to your team.
+          Recently, I’ve been diving deeper into <strong>real-time systems</strong> and <strong>event-driven architectures</strong>.
+          One of my key projects is a collaborative code editor that supports multi-user editing using WebSockets, where I worked on synchronization, handling concurrent updates, and backend architecture.
+        </p>
+
+        <p className="text-lg text-gray-700 leading-relaxed mt-4">
+          I enjoy understanding how things work under the hood — from APIs and async flows to system design decisions.
+          I focus on writing clean, scalable code and building features that are actually useful for users.
+        </p>
+
+        <p className="text-lg text-gray-700 leading-relaxed mt-4">
+          Currently, I’m leveling up my skills in real-time applications, system design, and modern backend technologies — with the goal of building impactful products and growing into a strong software engineer.
         </p>
       </div>
     </section>
@@ -20,4 +30,3 @@ function About() {
 }
 
 export default About;
-
